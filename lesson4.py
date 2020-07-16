@@ -1,6 +1,3 @@
-import operator
-
-
 def unique_english_letters(word):
     set_for_count = set(list(word))
     return len(set_for_count)
